@@ -22,7 +22,7 @@ messages = [
 ]
 
 def fake_code():
-    chars = "YOU HAVE BEEN HACKED"
+    chars = "ushxns!.ju_&!!!"
     return "".join(random.choice(chars) for _ in range(random.randint(30, 80)))
 
 os.system("clear")  # use "cls" on Windows
@@ -33,4 +33,4 @@ while True:
         print(GREEN + random.choice(messages) + RESET)
     else:
         print(GREEN + fake_code() + RESET)
-    time.sleep(0.07)
+    time.sleep(0.03)    
